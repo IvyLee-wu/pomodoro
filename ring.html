@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<link rel="stylesheet" href="css/all.css">
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  	
+  	<script src="https://kit.fontawesome.com/719bc5f65f.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<div class="container-fluid">
+    <div class="d-flex" style="height: 800px">
+        <div class="red h-100">
+          <div class="d-flex flex-column color">
+            <div class="p-4 red1">
+              <a href="list.html">
+                <i class="fas fa-list-ul fa-2x"></i>
+              </a>
+            </div>
+            <div class="p-4 red2">
+              <a href="analysis.html">
+                <i class="far fa-chart-bar fa-2x"></i>
+              </a>
+            </div>
+            <div class="p-4 red3">
+              <a href="ring.html">
+                <i class="fas fa-music fa-2x"></i>
+              </a>
+            </div>
+          </div>
+          <div class="lr">
+            <a href="index.html">pomodoro</a>
+          </div>
+        </div>
+      <div class="container mt-5">
+        <h3><i class="fas fa-music"></i> 鈴聲</h3>
+        <div class="row mt-5">
+          <div class="col-6">
+            <div class="card">
+              <div class="card-header h5 py-3 ringred">
+                工作鈴聲
+              </div>
+              <div class="card-body ringred1">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios" value="option" checked>
+                      <label class="form-check-label" for="exampleRadios">
+                        Default
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios" value="option">
+                      <label class="form-check-label" for="exampleRadios">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios" value="option">
+                      <label class="form-check-label" for="exampleRadios">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios" value="option">
+                      <label class="form-check-label" for="exampleRadios">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios" value="option">
+                      <label class="form-check-label" for="exampleRadios">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios" value="option">
+                      <label class="form-check-label" for="exampleRadios">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios" value="option">
+                      <label class="form-check-label" for="exampleRadios">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios" value="option">
+                      <label class="form-check-label" for="exampleRadios">
+                        Custom ring
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="checkbox" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card">
+              <div class="card-header h5 py-3 ringgreen">
+                休息鈴聲
+              </div>
+              <div class="card-body ringgreen1">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label" for="exampleRadios1">
+                        Default
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                    <div class="form-check py-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="exampleRadios1">
+                        Custom ring
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
